@@ -1,0 +1,62 @@
+.fullcontent{
+  font-family: cursive;
+
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-color:rgba(0,0,0,0.6);
+  z-index: 8882222;
+}
+
+.oynaBox{
+  font-family: cursive;
+  background-color:white;
+  margin-top: 50vh;
+  margin-left: 5vh;
+  width: 40vh;
+  height: 30vh;
+  border-radius: 5px;
+  border-bottom-right-radius:45px;
+}
+.oynaBox img{
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+  float: left;
+  margin-left:5px ;
+  margin-right: 5px;
+}
+
+.yashil{
+  background-color: rgb(44, 179, 44);
+  margin-left:8vh;
+  color:white;
+  width: 20vh;
+}
+.yashil:hover{
+  background-color: green;
+
+}
+.userName{
+  color:aquamarine;
+  font-size: medium;
+  font-weight: 600;
+}
+.footer yashil{
+  margin-left: 15px;
+}
+@media screen and (max-width:800px){
+  .oynaBox{
+    font-family: cursive; 
+    background-color:white;
+    margin-top: 50vh;
+    width: 35vh;
+    height: 22vh;
+    border-radius: 5px;
+    border-bottom-right-radius:25px;
+  }
+}

@@ -1,0 +1,133 @@
+.home{
+  width: 100%;
+  min-height:100vh;
+  /* background-color:#555; */
+}
+.post_items{
+  width: 100%;
+  position: relative;
+  /* display: grid; */
+  /* grid-template-columns:30% 45% 25%; */
+  /* gap:2%; */
+}
+.left_left{
+  background-color: rgb(13, 34, 41);
+  float: left;
+  position: fixed;
+  left:0;
+  top: 10vh;
+  width: 30%;
+  height: 100%;
+  /* padding:10px; */
+  z-index: 33;
+  overflow-x:hidden;
+  padding-bottom: 20px;
+
+}
+.left_side{
+  width: 50%;
+  position: absolute;
+  /* left:30% */
+  /* left:30%; */
+  /* top:10vh; */
+  /* height: 90vh; */
+  /* position: relative; */
+  margin-left:23%;
+  /* background-color: rgb(248, 217, 217); */
+  padding:0px 10px 10% 10%;
+}
+.right_side{
+  /* min-height: 90vh; */
+  /* background-color: white; */
+  position: fixed;
+  right: 0;
+  top:10vh;
+  height: 100%;
+  width: 35%;
+  float: right;
+z-index: 33;
+overflow-x: hidden;
+  padding:0px 2% 0 10%;
+}
+.postedBy{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: cursive;
+  padding: 5px;
+
+}
+.Mashxurlar{
+  display: none;
+}
+
+@media screen and (max-width:1180px){
+  .left_side{
+    margin-left: 0;
+    padding: 0;
+    width: 63%;
+  }
+  .left_left{
+    display: none;
+  }
+  .right_side{
+    width: 42%;
+  }
+}
+@media screen and (max-width:800px){
+
+  .post_items{
+    /* display:grid;
+    grid-template-columns: 100%; */
+    margin-right: 10%;
+  }
+  .right_side{
+    display: none;
+  }
+  .left_left{
+    display: none;
+  }
+  .left_side{
+    /* display: none; */
+    width: 100%;
+    position: relative;
+    left: 0;
+    top:10px;
+    margin-left: 0;
+    padding: 5px;
+  }
+}
+.material-icons:hover{
+cursor:pointer;
+}
+.a{
+  background-color: rgb(248, 246, 246);
+  width: 90%;
+  margin-top:1vh;
+  margin:1vh auto;
+  height: 28vh;
+  border-radius: 1vh;
+  box-shadow: 1px 3px 4px rgb(117, 116, 116);
+  
+}
+.a img{
+  width: 26vh;
+  height: 27vh;
+  margin-top: 4px;
+ float: left;
+ border-radius: 1vh;
+ opacity: 0.99;
+ margin-right:2px;
+
+}
+.a img:hover{
+  transition: 2s;
+  opacity: 1;
+}
+.imgProfile{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  float: left;
+  border-radius:50%;
+}
+

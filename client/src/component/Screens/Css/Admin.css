@@ -1,0 +1,57 @@
+.Container{
+  width: 100%;
+  height: 90vh;
+}
+.leftBox{
+  width: 50%;
+  height:90vh;
+  /* background-color: aqua; */
+  float: left;
+}
+.leftBox img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-right: 1px solid rgb(150, 150, 150);
+  box-shadow: 10px 0 5px -2px rgb(189, 188, 188);
+}
+.rightBox{
+  float: left;
+  width: 50%;
+  height: 90vh;
+  /* background-color:blue; */
+}
+.topBox{
+  width: 100%;
+  height: 15vh;
+  box-shadow: 0 4px 6px 2px gray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  /* background-color:rgb(255, 0, 200); */
+}
+.topBox p{
+font-family: cursive;
+}
+.topBox b{
+  color: aqua;
+}
+.beetwenBox{
+  width: 100%;
+  height: 64.5vh;
+  /* background-color:rgb(0, 255, 34); */
+}
+.second{
+  box-shadow: 6px 0px 6px 5px gray;
+}
+@media screen and (max-width:800px){
+.topBox{
+  height: 20vh;
+}
+.beetwenBox{
+  height:55.5vh;
+}
+.leftBox img{
+  object-fit: fill;
+}
+}

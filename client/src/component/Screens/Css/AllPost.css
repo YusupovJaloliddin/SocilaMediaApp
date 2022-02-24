@@ -1,0 +1,192 @@
+.container{
+  padding-top: 3vh;
+  width: 100%;  
+}
+.box{
+  height: 40vh;
+  width: 86%;
+  margin: 0 auto;
+}
+.post{
+  position: relative;
+  text-align: center;
+
+  margin-left:0.33%;
+  margin-top: 0.33vh;
+  float:left;
+  width: 32.9%;
+  height: 40vh;
+}
+.Centerboxx{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.post .a{
+width: 100%;
+height: 40vh;
+}
+.a:hover {
+cursor:pointer;
+}
+/* modal chiqarish */
+.modalSS{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-color:rgba(0,0,0,0.6);
+  z-index: 8882222;
+}
+.yopish{
+  top: 1vh;
+  right:2%;
+  color:white;
+  position: fixed;
+  z-index: 222222;
+}
+
+.modalSSContent{
+
+  width:80%;
+  height: 80vh;
+  background-color:#fff;
+  margin: 10vh auto;
+}
+.box1{
+  float:left;
+  width: 50%;
+  height: 80vh;
+}
+.box1 .b{
+  width: 100%;
+  height: 80vh;
+}
+
+
+
+.b:hover {
+  cursor:pointer;
+
+  }
+.profileInfor{
+  width: 100%;
+  height: 6vh;
+  box-shadow: -1px -8px 5px -6px rgba(0,0,0,0.89) inset;
+-webkit-box-shadow: -1px -8px 8px -6px rgba(0,0,0,0.89) inset;
+-moz-box-shadow: -1px -9px 8px -6px rgba(0,0,0,0.89) inset;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.q{
+  width:6vh;
+  height: 5.8vh;
+  border-radius:50%;
+  float:left;
+
+}
+.p{
+  float:left;
+  /* font-size: 20px; */
+  margin: 1vh;
+  margin-bottom: 0;
+}
+.commentUser{
+  /* scroll-padding: 0; */
+  overflow-y: scroll;
+  height: 44vh;
+  width: 100%;
+  padding:10px;
+  background-color: rgb(191, 201, 200);
+
+}
+
+.commentUser ul{
+  width: 100%;
+}
+.commentUser ul li {
+  width: 100%;
+}
+.commentUser ul li p{
+  float: left;
+  width: 90%;
+  background-color:rgb(244, 245, 245);
+  border-radius: 5px;
+
+}
+
+.commentUser i:hover{
+  cursor:pointer;
+}
+.footerBox{
+  height: 29vh;
+  width:100%;
+  box-shadow: 0px 4px 10px 0px rgba(33,30,30,0.75) inset;
+-webkit-box-shadow: -1px 4px 10px 0px rgba(33,30,30,0.75) inset;
+-moz-box-shadow: 0px 4px 10px 0px rgba(33,30,30,0.75) inset;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.hoverBox:hover{
+  display: block;
+}
+
+.topBox{
+  padding: 15px;
+}
+.topBox p{
+  float: right;
+}
+.topBox i{
+  margin-right: 15px;
+}
+.input{
+  padding: 20px;
+}
+
+.notFound{
+  object-fit: cover;
+  width: 100%;
+  height: 35vh;
+}
+/* modal chiqarish tugadi */
+
+@media screen and (max-width:800px){
+  .modalSSContent{
+    width: 94%;
+    height: 60vh;
+  }
+  /* .box{ width:100%;} */
+  .post{
+    /* width: 100%; */
+    width: 49%;
+    margin-left:0.5%;
+    margin-top: 0.5vh;
+    height: 40vh;
+  }
+  .post img{
+    width: 100%;
+    height: 20vh;
+    }
+    .box1{
+      height: 60vh;
+    }
+    .box1 .b{
+      height: 60vh;
+    }
+    .commentUser{
+      height: 31vh;
+    }
+    .commentUser{
+      padding: 5px;
+    }
+
+   
+}

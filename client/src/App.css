@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Patrick+Hand&family=Roboto&display=swap');
+.navBg a{
+  color:black;
+}
+.navBg{
+  background-color:#888;
+}
+
+.white{
+background-color:  #888;
+}
+.card_auth{
+  padding:20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+.profile{
+  max-width: 80%;
+  margin: 0 auto;
+}
+.mycard{
+  margin-top: 30px;
+}
+.mycard h2{
+  color:#3a7257;
+  font-family: 'Roboto', sans-serif;
+}
+.icon{
+  color:#00e676;
+}
+.profileImg{
+  width: 160px;
+  height: 160px;
+  border-radius:50%; 
+  object-fit: cover; 
+}
+.profileMain{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 10px;
+  border-bottom:1px solid black;
+}
+.infoProfile{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.infoProfile p{
+  margin: 0 10px;
+}
+.gallery{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+gap:1rem;
+}
+.img-item{
+  display: flex;
+  flex-direction: column;
+}
+.img-item img{
+  height: 80%;
+  object-fit: cover;
+}
+.gallery .imgItem{
+  max-width:32% ;
+  margin-top: 10px;
+}
+
+.home_card{
+  max-width: 500px;
+  height:max-content;
+  margin: 30px auto;
+  /* padding:20px; */
+}
+.card-image img{
+  height:300px;
+}
+.postCard{
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+  padding:20px;
+}
+.fileButton{
+  background-color:#00e676;
+}
+.postCard h2{
+  color:#3a7257;
+  font-family: 'Roboto', sans-serif;
+}
+.cardPost{
+  position: relative;
+  margin:10px auto;
+  width: 800px;
+  min-height: 450px;
+  box-shadow: 40px 35px 50px rgba(20, 20, 20, 0.788);
+  /* overflow: hidden; */
+  /* background-color:#424242; */
+}
+.cardPost img{
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}.containers {
+  position: relative;
+  width: 50%;
+  margin:0 auto;
+
+}
+
+.images{
+
+  opacity: 1;
+  display: block;
+  width: 100px;
+  /* margin-right:30px; */
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+
+}
+
+.middles {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middles button{
+  margin-left: 100px;
+  border:none;
+  outline: none;
+}
+.containers:hover .images {
+  opacity: 0.3;
+}
+
+.containers:hover .middles {
+  opacity: 1;
+}
+.profileName{
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.profileName button{
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.modalS{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-color:rgba(0,0,0,0.5);
+  z-index: 2222222222222222;
+}
+.modalSContent{
+  width:50%;
+  padding:30px;
+  background-color:#fff;
+  margin: 10px auto;
+}
+.modalHeader{
+  height: 100%;
+  align-items:center;
+  display: flex;
+  justify-content: space-between;
+}
+.modalFooter{
+  margin-top: 15px;
+}
+.modalContent{
+ border-bottom: 2px solid rgb(0, 255, 255); 
+}
+body{
+  background-color:#fff;
+}
+.ungProfile{
+  padding-bottom: 20px;
+  font-family: cursive;
+}
+.ungProfile li{
+  border-bottom: 1px solid red;
+}
+.ungProfile :hover{
+  background-color: rgb(119, 164, 231);
+  color:white;
+}
+@media screen and (max-width:800px){
+.profileName h4{
+  margin-left: 15px;
+}
+  .modalSContent{
+    width: 80%;
+  }
+  .cardPost{
+    width: 100%;
+  }
+  .profileImg{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .img-item{
+    height: 250px;
+  }
+}
